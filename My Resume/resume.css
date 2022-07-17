@@ -1,0 +1,53 @@
+
+body {
+  background-color:cornsilk;
+}
+
+TABLE, TH,TD {
+	border : 1px solid;
+}
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+.column{
+	float : left;
+	width : 50%;
+}
+.row : after{
+	content : "";
+	display :table;
+}
+img {
+  border-radius: 8px;
+}
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+
+.icon-bar {
+  width: 90px; /* Set a specific width */
+  background-color: #555; /* Dark-grey background */
+}
+
+.icon-bar a {
+  display: block; /* Make the links appear below each other instead of side-by-side */
+  text-align: center; /* Center-align text */
+  padding: 16px; /* Add some padding */
+  transition: all 0.3s ease; /* Add transition for hover effects */
+  color: white; /* White text color */
+  font-size: 36px; /* Increased font-size */
+}
+
+.icon-bar a:hover {
+  background-color: #000; /* Add a hover color */
+}
+
+.active {
+  background-color: #04AA6D; /* Add an active/current color */
+}
